@@ -31,8 +31,8 @@ class AwesomeCalendarPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       child: Column(
-        children: buildRows(context),
         mainAxisSize: MainAxisSize.min,
+        children: buildRows(context),
       ),
     );
   }

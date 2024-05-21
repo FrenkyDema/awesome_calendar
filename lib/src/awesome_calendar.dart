@@ -235,6 +235,7 @@ class AwesomeCalendarState extends State<AwesomeCalendar> {
 
 class DateRange {
   DateRange(this.startDate, this.endDate);
+
   DateTime startDate;
   DateTime endDate;
 }
